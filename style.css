@@ -1,0 +1,162 @@
+/* ===========================
+   Configuración General
+=========================== */
+
+body{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    color: #343a40;
+}
+
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* ===========================
+   Encabezado
+=========================== */
+
+header{
+    background: linear-gradient(135deg,#1f2937,#111827);
+}
+
+header h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p{
+    color:#d1d5db;
+}
+
+header .btn{
+    border-radius:50px;
+    padding:10px 25px;
+}
+
+/* ===========================
+   Título de sección
+=========================== */
+
+h2{
+    font-weight:bold;
+    margin-bottom:40px;
+}
+
+/* ===========================
+   Tarjetas de proyectos
+=========================== */
+
+.card{
+
+    border:none;
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:all .3s ease;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+.card-img-top{
+
+    height:230px;
+
+    object-fit:cover;
+
+}
+
+/* ===========================
+   Badges
+=========================== */
+
+.badge{
+
+    margin-right:5px;
+
+    margin-bottom:5px;
+
+    font-size:.85rem;
+
+    padding:8px 12px;
+
+}
+
+/* ===========================
+   Botones
+=========================== */
+
+.btn-primary{
+
+    border-radius:50px;
+
+    padding:10px 22px;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+
+    background:#111827;
+
+}
+
+footer h5{
+
+    font-weight:bold;
+
+}
+
+footer p{
+
+    color:#d1d5db;
+
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    header h1{
+
+        font-size:2.2rem;
+
+    }
+
+    header p{
+
+        width:100% !important;
+
+    }
+
+    .card-img-top{
+
+        height:200px;
+
+    }
+
+}
